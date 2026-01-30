@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="HANGGER - Premium men's fashion & streetwear in Nepal. Shop modern clothing, shirts, pants, jackets & accessories. Fast local shipping. Summer 2026 Collection now live.">
+    <meta name="keywords"
+        content="men's fashion, streetwear Nepal, men's clothing Surkhet, trendy clothing, modern menswear, shirts, pants, jackets, Nepal fashion">
+    <meta name="author" content="HANGGER">
+    <title>HANGGER | Modern Men's Fashion & Streetwear in Nepal</title>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yoursite.com/">
+    <meta property="og:title" content="HANGGER | Modern Men's Fashion & Streetwear">
+    <meta property="og:description"
+        content="Premium men's fashion in Nepal. Shop the latest streetwear collection with fast local delivery. Quality clothing at affordable prices.">
+    <meta property="og:image" content="https://yoursite.com/images/og-image.jpg">
+    <meta property="og:site_name" content="HANGGER">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://yoursite.com/">
+    <meta name="twitter:title" content="HANGGER | Modern Men's Fashion">
+    <meta name="twitter:description"
+        content="Premium men's fashion in Nepal. Shop the latest streetwear collection with fast local delivery.">
+    <meta name="twitter:image" content="https://yoursite.com/images/og-image.jpg">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://yoursite.com/Home.html">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/images/icon-512.png">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#000000">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ClothingStore",
+      "name": "HANGGER",
+      "description": "Modern Men's Fashion & Streetwear in Nepal",
+      "url": "https://yoursite.com",
+      "logo": "https://yoursite.com/images/logo.png",
+      "image": "https://yoursite.com/images/og-image.jpg",
+      "telephone": "+977-9800596635",
+      "email": "info@trendycorner.com",
+      "@id": "https://yoursite.com/#organization",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Chapagaun dobato",
+        "addressLocality": "Birendranagar",
+        "addressCountry": "NP",
+        "postalCode": "44600"
+      },
+      "sameAs": [
+        "https://instagram.com/_trendycorner3"
+      ],
+      "priceRange": "Rs. 999 - Rs. 6999",
+      "acceptsReservations": "false",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Men's Clothing",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Shirts"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Pants"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Jackets"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+
+<body data-page="home">
+    <!-- Announcement Bar -->
+    <div class="bg-black text-white py-2 text-center border-b border-white/10">
+        <p class="text-[0.65rem] font-bold uppercase tracking-[0.2em]">Fast Local Shipping 🚚 • Free Returns within 7
+            Days</p>
+    </div>
+
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container h-full">
+            <div class="header-inner">
+                <!-- Left: Logo -->
+                <!-- Left: Logo -->
+                <a href="Home.html" class="flex flex-col group">
+                    <span class="logo leading-none group-hover:opacity-80 transition-opacity">HANGGER</span>
+                    <span class="text-[0.6rem] text-gray-400 font-sans tracking-[0.2em] uppercase mt-1">Est. 2024 •
+                        Birendranagar</span>
+                </a>
+
+                <!-- Center: Nav -->
+                <nav class="hidden md:flex items-center main-nav">
+                    <a href="Home.html" class="nav-link active">Home</a>
+                    <a href="shop.html" class="nav-link">Shop</a>
+                    <a href="about.html" class="nav-link">About</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+                <button class="btn-icon md:hidden text-white" id="mobile-menu-btn" aria-label="Menu">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="1.5">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+
+                <!-- Right: Actions -->
+                <div class="flex items-center justify-end gap-4">
+                    <a href="cart.html" class="cart-btn-pill">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                        <span>CART</span>
+                        <div class="cart-count" id="cart-count">0</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-backdrop"></div>
+        <div class="mobile-menu-content">
+            <button id="mobile-menu-close" class="absolute top-6 right-6 p-2">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <nav class="flex flex-col gap-6 mt-12">
+                <a href="Home.html" class="text-2xl font-display uppercase">Home</a>
+                <a href="shop.html" class="text-2xl font-display uppercase">Shop</a>
+                <a href="shop.html?sort=newest" class="text-2xl font-display uppercase">New Arrivals</a>
+                <a href="about.html" class="text-2xl font-display uppercase">About</a>
+                <a href="contact.html" class="text-2xl font-display uppercase">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero bg-black text-white relative overflow-hidden">
+            <!-- Background Parallax (Optional) -->
+            <div class="absolute inset-0 opacity-40">
+                <img src="images/hero-bg.png" class="w-full h-full object-cover">
+            </div>
+
+            <div class="container relative z-10 h-full flex items-center">
+                <div class="hero-grid w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Text Content -->
+                    <div class="hero-content text-left pt-20 md:pt-0">
+                        <div class="flex items-center gap-4 mb-6">
+                            <span class="h-px w-8 bg-white"></span>
+                            <span class="text-sm font-bold uppercase tracking-[0.2em]">Summer 2026</span>
+                        </div>
+                        <h1 class="text-display-xl mb-6 leading-[0.9] tracking-tighter">
+                            MODERN<br>STREETWEAR<br><span class="text-gray-500">ESSENTIALS</span>
+                        </h1>
+                        <p class="text-lg text-gray-300 max-w-md mb-10 font-light">
+                            Crafted for the city. Designed for comfort. Elevate your everyday style with our premium
+                            collection.
+                        </p>
+                        <div class="flex flex-wrap items-center gap-6">
+                            <a href="shop.html"
+                                class="btn btn-primary btn-lg bg-white text-black hover:bg-gray-200">Shop Collection</a>
+                            <a href="shop.html?category=new"
+                                class="group flex items-center gap-2 text-sm font-bold uppercase tracking-widest hover:text-gray-300 transition-colors">
+                                View Lookbook
+                                <span class="group-hover:translate-x-1 transition-transform">→</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Hero Images -->
+                    <div class="hidden md:grid grid-cols-2 gap-4 h-full items-center relative">
+                        <div class="hero-image aspect-[3/4] translate-y-12">
+                            <img src="https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&q=80"
+                                alt="Men's Fashion 1"
+                                class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                        <div class="hero-image aspect-[3/4] -translate-y-12">
+                            <img src="https://images.unsplash.com/photo-1506634572416-48cdfe530110?w=800&q=80"
+                                alt="Men's Fashion 2"
+                                class="object-cover w-full h-full grayscale hover:grayscale-0 transition-all duration-700">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- New This Week (Horizontal Scroll) -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div>
+                        <div class="section-label text-blue-600">FRESH DROPS</div>
+                        <h2 class="text-display-lg">NEW THIS WEEK</h2>
+                    </div>
+                    <div class="flex gap-2">
+                        <button class="btn-icon border border-gray-200"
+                            onclick="document.getElementById('new-scroll').scrollBy({left:-300,behavior:'smooth'})">←</button>
+                        <button class="btn-icon border border-gray-200"
+                            onclick="document.getElementById('new-scroll').scrollBy({left:300,behavior:'smooth'})">→</button>
+                    </div>
+                </div>
+
+                <div class="scroll-section" id="new-scroll">
+                    <div class="scroll-row" id="featured-products">
+                        <!-- Loaded via JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Grid -->
+        <section class="section bg-white text-black">
+            <div class="container">
+                <div class="section-header justify-center text-center">
+                    <div>
+                        <div class="section-label">CURATED STYLES</div>
+                        <h2 class="text-display-lg">XIV COLLECTIONS 23-24</h2>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Collection 1 -->
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[3/4] overflow-hidden bg-gray-100 mb-6 relative">
+                            <img src="https://images.unsplash.com/photo-1550246140-5119980d708e?w=800"
+                                class="w-full h-full object-cover transition duration-1000 cubic-bezier(0.19, 1, 0.22, 1) group-hover:scale-110">
+                            <div
+                                class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-2xl font-display uppercase mb-2">Urban Streetwear</h3>
+                            <p class="text-sm text-gray-500 mb-4 max-w-[250px] mx-auto">Bold graphic tees, relaxed cargo
+                                silhouttes, and statement hoodies for the city explorer.</p>
+                            <a href="shop.html?category=streetwear"
+                                class="btn btn-outline btn-sm hover:bg-black hover:text-white border-black text-black">Shop
+                                Collection</a>
+                        </div>
+                    </div>
+
+                    <!-- Collection 2 -->
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[3/4] overflow-hidden bg-gray-100 mb-6 relative">
+                            <img src="https://images.unsplash.com/photo-1593030761757-71fae45fa0e7?w=800"
+                                class="w-full h-full object-cover transition duration-1000 cubic-bezier(0.19, 1, 0.22, 1) group-hover:scale-110">
+                            <div
+                                class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-2xl font-display uppercase mb-2">Modern Formal</h3>
+                            <p class="text-sm text-gray-500 mb-4 max-w-[250px] mx-auto">Sharp tailoring meets
+                                contemporary comfort. Blazers, trousers, and shirts defined by precision.</p>
+                            <a href="shop.html?category=formal"
+                                class="btn btn-outline btn-sm hover:bg-black hover:text-white border-black text-black">Shop
+                                Collection</a>
+                        </div>
+                    </div>
+
+                    <!-- Collection 3 -->
+                    <div class="group cursor-pointer">
+                        <div class="aspect-[3/4] overflow-hidden bg-gray-100 mb-6 relative">
+                            <img src="https://images.unsplash.com/photo-1516826957135-700dedea698c?w=800"
+                                class="w-full h-full object-cover transition duration-1000 cubic-bezier(0.19, 1, 0.22, 1) group-hover:scale-110">
+                            <div
+                                class="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500">
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="text-2xl font-display uppercase mb-2">Weekend Casual</h3>
+                            <p class="text-sm text-gray-500 mb-4 max-w-[250px] mx-auto">Effortless layers and soft
+                                textures. The definitive guide to looking good while doing nothing.</p>
+                            <a href="shop.html?category=casual"
+                                class="btn btn-outline btn-sm hover:bg-black hover:text-white border-black text-black">Shop
+                                Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Approach / Brand Story -->
+        <section class="section py-24">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div class="order-2 md:order-1">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="aspect-[3/4] mt-12 bg-gray-100">
+                                <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?w=800"
+                                    class="w-full h-full object-cover grayscale">
+                            </div>
+                            <div class="aspect-[3/4] bg-gray-100">
+                                <img src="https://images.unsplash.com/photo-1559563458-52c69529db81?w=800"
+                                    class="w-full h-full object-cover grayscale">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="order-1 md:order-2">
+                        <div class="section-label mb-6 text-black">OUR PHILOSOPHY</div>
+                        <h2 class="text-display-lg mb-8 leading-none">CRAFTED FOR<br>THE MODERN<br>INDIVIDUAL</h2>
+                        <div class="prose text-lg text-gray-500 mb-8">
+                            <p class="mb-6">
+                                Founded in 2024, HANGGER began with a simple mission: to bridge the gap between
+                                high-end fashion and everyday streetwear in Nepal. We believe that style shouldn't come
+                                at the cost of comfort.
+                            </p>
+                            <p>
+                                Each piece is meticulously designed in Birendranagar using premium, locally-sourced
+                                fabrics
+                                where possible. Our commitment to craftsmanship ensures that every stitch tells a story
+                                of quality and dedication.
+                            </p>
+                        </div>
+
+                        <div class="flex gap-12 border-t border-gray-200 pt-8 mt-8">
+                            <div>
+                                <h4 class="text-3xl font-display mb-1">100%</h4>
+                                <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Premium
+                                    Cotton</span>
+                            </div>
+                            <div>
+                                <h4 class="text-3xl font-display mb-1">KTM</h4>
+                                <span class="text-xs font-bold uppercase tracking-widest text-gray-400">Designed
+                                    Locally</span>
+                            </div>
+                        </div>
+
+                        <a href="about.html"
+                            class="inline-block mt-8 text-sm font-bold uppercase tracking-widest border-b border-black pb-1 hover:text-gray-600 transition-colors">Read
+                            Our Story</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section bg-gray-50 border-t border-gray-200">
+            <div class="container">
+                <div class="section-header text-center justify-center mb-16">
+                    <div>
+                        <div class="section-label">COMMUNITY</div>
+                        <h2 class="text-display-md">WHAT THEY SAY</h2>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Review 1 -->
+                    <div class="bg-white p-8 border border-gray-100 relative">
+                        <div class="text-4xl text-gray-200 font-serif absolute top-4 left-4">“</div>
+                        <p class="text-gray-600 mb-6 relative z-10">"The quality of the fabric matches international
+                            luxury brands. Finally, a Nepali brand that gets streetwear right."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-gray-200 rounded-full overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold uppercase">Aayush S.</h4>
+                                <p class="text-xs text-gray-400 uppercase tracking-wider">Birendranagar</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="bg-white p-8 border border-gray-100 relative">
+                        <div class="text-4xl text-gray-200 font-serif absolute top-4 left-4">“</div>
+                        <p class="text-gray-600 mb-6 relative z-10">"Ordered the chinos and the fit is impeccable.
+                            Delivery to Birendranagar was super quick. Highly recommended!"</p>
+                        </p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-gray-200 rounded-full overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold uppercase">Rohit M.</h4>
+                                <p class="text-xs text-gray-400 uppercase tracking-wider">Birendranagar</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="bg-white p-8 border border-gray-100 relative">
+                        <div class="text-4xl text-gray-200 font-serif absolute top-4 left-4">“</div>
+                        <p class="text-gray-600 mb-6 relative z-10">"Modern, minimalist, and comfortable. My go-to for
+                            office wear and weekend outings."</p>
+                        <div class="flex items-center gap-4">
+                            <div class="w-10 h-10 bg-gray-200 rounded-full overflow-hidden">
+                                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200"
+                                    class="w-full h-full object-cover">
+                            </div>
+                            <div>
+                                <h4 class="text-sm font-bold uppercase">Priya K.</h4>
+                                <p class="text-xs text-gray-400 uppercase tracking-wider">Pokhara</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="py-24 bg-black text-white relative overflow-hidden">
+            <div class="container relative z-10 text-center">
+                <div class="max-w-xl mx-auto">
+                    <h2 class="text-display-md mb-4 uppercase">Join the Movement</h2>
+                    <p class="text-gray-400 mb-8">Sign up for exclusive access to new drops, sales, and community
+                        events.</p>
+
+                    <form class="flex flex-col sm:flex-row gap-4"
+                        onsubmit="event.preventDefault(); alert('Thanks for subscribing!');">
+                        <input type="email" placeholder="ENTER YOUR EMAIL"
+                            class="flex-1 bg-transparent border-b border-white/30 py-3 text-white placeholder-gray-500 focus:outline-none focus:border-white transition-colors uppercase text-sm">
+                        <button type="submit"
+                            class="btn bg-white text-black px-8 py-3 text-sm font-bold uppercase tracking-widest hover:bg-gray-200 transition-colors">Subscribe</button>
+                    </form>
+                    <p class="text-xs text-gray-600 mt-6 uppercase tracking-widest">No spam. Unsubscribe anytime.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="flex flex-col items-center justify-center text-center py-20">
+                <a href="Home.html" class="text-display-lg mb-8 tracking-tighter hover:text-gray-300 transition-colors">
+                    TRENDY<br>CORNER
+                </a>
+                <div class="flex flex-col gap-4 mb-12">
+                    <p class="text-gray-400 text-sm font-sans uppercase tracking-widest">Men's clothing store</p>
+                    <p class="text-white text-sm font-sans uppercase tracking-widest">Birendranagar, Surkhet, Nepal
+                        44600</p>
+                </div>
+
+                <div
+                    class="flex flex-wrap justify-center gap-x-12 gap-y-6 mb-12 py-8 border-y border-white/10 w-full max-w-4xl">
+                    <div class="flex flex-col items-center gap-2">
+                        <span class="text-[0.6rem] text-gray-500 uppercase tracking-widest mb-1">WhatsApp/Viber</span>
+                        <a href="https://wa.me/9779800596635"
+                            class="text-sm font-bold tracking-widest hover:text-gray-300 transition-colors">9800596635</a>
+                    </div>
+                    <div class="flex flex-col items-center gap-2">
+                        <span class="text-[0.6rem] text-gray-500 uppercase tracking-widest mb-1">Location
+                            Inquiries</span>
+                        <a href="tel:9741877230"
+                            class="text-sm font-bold tracking-widest hover:text-gray-300 transition-colors">9741877230</a>
+                    </div>
+                    <div class="flex flex-col items-center gap-2">
+                        <span class="text-[0.6rem] text-gray-500 uppercase tracking-widest mb-1">Instagram</span>
+                        <a href="https://instagram.com/_trendycorner3"
+                            class="text-sm font-bold tracking-widest hover:text-gray-300 transition-colors">@_trendycorner3</a>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-x-8 gap-y-4 mb-12 opacity-60">
+                    <a href="policies/shipping.html"
+                        class="text-[10px] font-bold uppercase tracking-widest hover:underline">Shipping</a>
+                    <a href="policies/returns.html"
+                        class="text-[10px] font-bold uppercase tracking-widest hover:underline">Returns</a>
+                    <a href="policies/privacy.html"
+                        class="text-[10px] font-bold uppercase tracking-widest hover:underline">Privacy</a>
+                </div>
+
+                <div class="relative w-full max-w-md border-t border-white/20 pt-8 mt-8">
+                    <p class="text-gray-500 text-[0.6rem] uppercase tracking-widest">© 2026 HANGGER. Designed in
+                        Nepal.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Container -->
+    <div id="toast-container"></div>
+
+    <!-- Scripts -->
+    <!-- Scripts -->
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

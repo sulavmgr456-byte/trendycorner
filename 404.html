@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>404 - Page Not Found | Trendy Corner</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="bg-black text-white min-h-screen flex flex-col">
+    <!-- Simple Header -->
+    <header class="py-6 border-b border-white/10">
+        <div class="container mx-auto px-4">
+            <a href="Home.html" class="text-2xl font-display uppercase tracking-tighter">TRENDY CORNER</a>
+        </div>
+    </header>
+
+    <!-- 404 Content -->
+    <main class="flex-1 flex items-center justify-center px-4 py-12">
+        <div class="max-w-2xl text-center">
+            <!-- Large 404 -->
+            <h1 class="text-[12rem] md:text-[16rem] font-display leading-none tracking-tighter opacity-10 select-none">
+                404
+            </h1>
+
+            <!-- Error Message -->
+            <div class="-mt-20 md:-mt-32 relative z-10">
+                <h2 class="text-4xl md:text-6xl font-display uppercase tracking-tight mb-6">
+                    PAGE NOT<br>FOUND
+                </h2>
+                <p class="text-lg text-gray-400 mb-12 max-w-md mx-auto">
+                    The page you're looking for doesn't exist or has been moved. Let's get you back on track.
+                </p>
+
+                <!-- Action Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="Home.html"
+                        class="btn btn-primary bg-white text-black px-8 py-3 rounded-full uppercase font-bold text-sm tracking-widest hover:bg-gray-200 transition-colors">
+                        Back to Home
+                    </a>
+                    <a href="shop.html"
+                        class="btn btn-outline border border-white text-white px-8 py-3 rounded-full uppercase font-bold text-sm tracking-widest hover:bg-white hover:text-black transition-colors">
+                        Browse Shop
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="mt-16 pt-8 border-t border-white/10">
+                <h3 class="text-xs uppercase tracking-widest text-gray-600 mb-4">Popular Pages</h3>
+                <div class="flex flex-wrap justify-center gap-6">
+                    <a href="shop.html" class="text-sm hover:text-gray-300 transition-colors">Shop All</a>
+                    <a href="shop.html?category=shirts" class="text-sm hover:text-gray-300 transition-colors">Shirts</a>
+                    <a href="shop.html?category=pants" class="text-sm hover:text-gray-300 transition-colors">Pants</a>
+                    <a href="shop.html?category=jackets"
+                        class="text-sm hover:text-gray-300 transition-colors">Jackets</a>
+                    <a href="about.html" class="text-sm hover:text-gray-300 transition-colors">About Us</a>
+                    <a href="contact.html" class="text-sm hover:text-gray-300 transition-colors">Contact</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Simple Footer -->
+    <footer class="py-6 border-t border-white/10">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-xs text-gray-600 uppercase tracking-widest">
+                © 2026 Trendy Corner. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

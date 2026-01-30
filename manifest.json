@@ -1,0 +1,30 @@
+{
+    "name": "HANGGER",
+    "short_name": "HANGGER",
+    "description": "Modern Men's Fashion & Streetwear in Nepal",
+    "start_url": "/Home.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/images/icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "categories": [
+        "shopping",
+        "lifestyle"
+    ],
+    "lang": "en-US",
+    "dir": "ltr"
+}

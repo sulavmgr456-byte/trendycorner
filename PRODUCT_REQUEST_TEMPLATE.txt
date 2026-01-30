@@ -1,0 +1,138 @@
+NEW PRODUCT REQUEST TEMPLATE
+============================
+
+Copy this template and fill it out when the owner gives you new products.
+Then send it to me (AI Assistant) and I'll add it to the website!
+
+---
+
+PRODUCT #1
+----------
+
+Product Name: [e.g., Premium Black Hoodie]
+
+Category: [Choose one: shirts, pants, jackets, accessories]
+
+Price: Rs. [e.g., 2499]
+
+Original Price: Rs. [e.g., 2999] (Leave blank if not on sale)
+
+Sizes Available: [e.g., S, M, L, XL, XXL]
+
+Colors Available:
+  - [Color name] (#HexCode)    [e.g., Black (#000000)]
+  - [Color name] (#HexCode)    [e.g., White (#FFFFFF)]
+  - [Color name] (#HexCode)    [Optional]
+
+Description (2-3 sentences):
+[Describe the product - material, fit, features, what makes it special]
+
+
+Images (Upload to ImgBB first, then paste links here):
+1. [Front view]: 
+2. [Back view]: 
+3. [Detail/Close-up]: 
+4. [Additional]: 
+
+Stock Quantity: [How many pieces available]
+
+Featured on Homepage?: [Yes / No]
+
+Tags: [e.g., trending, new arrival, winter, casual, sale]
+
+Additional Notes:
+[Any special instructions or information]
+
+
+---
+
+PRODUCT #2 (Copy above template if adding multiple products)
+----------
+
+Product Name: 
+
+Category: 
+
+Price: Rs. 
+
+[etc...]
+
+
+---
+
+COMMON COLOR HEX CODES (Copy these):
+-----------------------------------
+
+White: #FFFFFF
+Black: #000000
+Grey: #808080
+Red: #FF0000
+Blue: #0000FF
+Navy Blue: #001F3F
+Green: #008000
+Yellow: #FFFF00
+Orange: #FFA500
+Brown: #8B4513
+Beige: #F5F5DC
+Maroon: #800000
+
+
+---
+
+QUICK REMINDERS:
+----------------
+
+✅ Upload images to ImgBB.com first
+✅ Use clear, descriptive product names
+✅ Write 2-3 sentence descriptions
+✅ Include all available sizes
+✅ Specify accurate stock quantity
+✅ Mark as "Featured" if it should show on homepage
+
+🔗 ImgBB Upload: https://imgbb.com
+📧 Send completed form to AI Assistant
+
+---
+
+EXAMPLE (Filled Out):
+--------------------
+
+PRODUCT #1
+----------
+
+Product Name: Premium Black Hoodie
+
+Category: jackets
+
+Price: Rs. 2499
+
+Original Price: Rs. 2999
+
+Sizes Available: S, M, L, XL
+
+Colors Available:
+  - Black (#000000)
+  - Grey (#808080)
+
+Description:
+Soft cotton blend hoodie with front kangaroo pocket and drawstring hood. 
+Perfect for winter weather. Comfortable relaxed fit with ribbed cuffs.
+
+Images:
+1. https://i.ibb.co/abc123/black-hoodie-front.jpg
+2. https://i.ibb.co/def456/black-hoodie-back.jpg
+3. https://i.ibb.co/ghi789/black-hoodie-pocket.jpg
+
+Stock Quantity: 20
+
+Featured on Homepage?: Yes
+
+Tags: trending, winter, casual, comfortable
+
+Additional Notes:
+Owner says this is a bestseller. Should be highlighted.
+
+
+---
+
+That's it! Fill this out and send to me → I'll update the website → You upload the file → Product goes LIVE! 🚀

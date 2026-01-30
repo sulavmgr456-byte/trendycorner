@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow admin areas (if any added in future)
+Disallow: /admin/
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://yoursite.com/sitemap.xml
